@@ -1,0 +1,95 @@
+body {
+	background: #619451;
+	font-family: 'Arial';
+}
+
+#headerpad {
+	background: #216594; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIxNjU5NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwYzM1NTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #216594 0%, #0c3553 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#216594), color-stop(100%,#0c3553)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #216594 0%,#0c3553 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #216594 0%,#0c3553 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #216594 0%,#0c3553 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #216594 0%,#0c3553 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#216594', endColorstr='#0c3553',GradientType=0 ); /* IE6-8 */
+	margin-left: auto;
+	margin-right: auto;
+	width: 504px;
+	height: 70px;
+	text-align: center;
+	font-weight: 900;
+	letter-spacing: -3px;
+	font-size: 50px;
+	line-height: 56px;
+	padding-top: 5px;
+	color: rgba(0,0,0,0.3);
+	text-shadow: 1px 1px 2px rgba(255,255,255,0.1);
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border: #0C3553;
+	border-width: 1px;
+	border-style: solid;
+	/*box-shadow: 0px 2px 2px rgba(30,30,30,.5);*/
+	z-index: 10;
+}
+
+.paper {
+	background: #ffffc1;
+	background-image: -webkit-linear-gradient(#f6abca 1px, transparent 1px), -webkit-linear-gradient(#f6abca 1px, transparent 1px), -webkit-linear-gradient(#cfcfcf 1px, transparent 1px);
+	background-image: -moz-linear-gradient(#f6abca 1px, transparent 1px), -moz-linear-gradient(#f6abca 1px, transparent 1px), -moz-linear-gradient(#cfcfcf 1px, transparent 1px);
+	background-image: -o-linear-gradient(#f6abca 1px, transparent 1px), -o-linear-gradient(#f6abca 1px, transparent 1px), -o-linear-gradient(#cfcfcf 1px, transparent 1px);
+	background-image: linear-gradient(#f6abca 1px, transparent 1px), linear-gradient(#f6abca 1px, transparent 1px), linear-gradient(#cfcfcf 1px, transparent 1px);
+	background-size: 1px 1px, 1px 1px, 23px 23px;
+	background-position: 50px 0, 54px 0, 0 70px;/*22px 0, 24px 0, 0 50px;*/
+	background-repeat: repeat-y, repeat-y, repeat;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 2px 2px rgba(30,30,30,.5);
+}
+
+#notes {
+	width: 500px;
+	height: 600px;
+	z-index: 7;
+}
+
+#page1 {
+	width: 504px;
+	height: 2px;
+	z-index: 6;
+}
+
+#page2 {
+	width: 502px;
+	height: 2px;
+	z-index: 5;
+}
+
+#page3 {
+	width: 496px;
+	height: 2px;
+	z-index: 3;
+}
+
+#page4 {
+	width: 494px;
+	height: 2px;
+	z-index: 1;
+}
+
+#notetext {
+	font-family: 'Architects Daughter', 'Arial', cursive;
+	font-size: 20px;
+	position: relative;
+	left: 60px;
+	line-height: 23px;
+	width: 440px;
+	height: 600px;
+}
+
